@@ -13,6 +13,7 @@
 - rozmiary okna i tryb pełnoekranowy
 - zmiana koloru tła 
 - wprowadzanie podstawowych kształtów (linia, elipsa, prostokąt, trójkąt)
+- wypełnienie i obrys (fill, stroke, noStroke, lineWidth)
 - budowanie bardziej skomplikowanych kształtów (blok beginShape/endShape)
 - podstawowe transformacje kształtów (funkcje translate, rotate, pushMatrix)
 - układ współrzędnych
@@ -79,12 +80,16 @@ Korzystając z bloku beginShape / endShape zbudować pięciokąt.
 ## Pojęcia do omówienia
 - pojęcie zmiennej
 - podstawowe typy danych (liczby całkowite, liczby zmiennoprzecinkowe, zmienne logiczne, łańcuchy znaków, tablice, listy, wektory)
+- rzutowanie/konwersja typu (int(), float(), str())
 - zmienne systemowe (na przykładzie width, height, mouseX, mouseY)
 - konsola i wypisywanie komunikatów za pomocą polecenia println()
 - polecenie text() i wypisywanie danych w oknie programu
 - operacja modulo
 - funkcje trygonometryczne i sposoby miary kąta
 - liczby losowe
+- instrukcja frameRate()
+- instrukcja frameCount
+
 
 ---
 
@@ -149,6 +154,45 @@ Wróć do zadania "Symulacja wahadła" i uprość program korzystając z wektor�
 ---
 
 # III. Instrukcje warunkowe
+
+## Pojęcia do omówienia:
+- składnia instrukcji warunkowej
+- zmienne logiczne - przypomnienie
+- zmienne systemowe: keyPressed, keyCode, key, mousePressed
+- instrukcja setup()
+- instrukcja loop()/noLoop()
+---
+
+### Zadanie 21.
+W oparciu o zadanie "Przemieszczająca się elipsa" i korzystając z instrukcji warunkowych, utwórz program, w którym będziesz sterować pozycją i szybkością elipsy za pomocą klawiatury:
+- strzałka w prawo - rych w prawo
+- strzałka w lewo - ruch w lewo
+- strzałka w dół - ruch w dół
+- strzałka w górę - ruch w górę
+- klawisz 'q' - zwiększanie szybkości
+- klasisz 'w' - zmniejszanie szybkości
+
+---
+
+### Zadanie 22.
+
+Korzystając z funkcji random() oraz instrukcji warunkowych utworzyć program do szacowania wartości liczby pi (całkowanie Monte Carlo).
+
+Korzystając z instrukcji warunkowych, utworzyć program sortujący 
+
+Utworzyć program losujący (typu kostka do gry)
+
+Utworzyć program do gry typu Pong
+
+Utworzyć program typu Paint
+
+Utworzyć program typu kolorowe kwadraty
+
+
+---
+
+### Zadanie
+
 
 ---
 
