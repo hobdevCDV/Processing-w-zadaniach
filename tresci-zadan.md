@@ -290,10 +290,12 @@ Rozbuduj program "Symulacja wahadła", dodaj do niego kolejne wahadła tak, aby 
 ---
 
 ### Zadanie 38.
+Spirala - korzystając z pętli utwórz program generujący (za pomocą małych kwadratów) kwadratową spiralę.
 
 ---
 
 ### Zadanie 39.
+Rozbuduj program "Spirala" tak, aby kolor kolejnych kwadratów zależał od tego, czy numer danego kwadratu jest liczbą pierwszą (spirala Ulama).
 
 ---
 
