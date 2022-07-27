@@ -61,7 +61,7 @@ Korzystając z funkcji ellipse wykonać ilustrację księżyca w kształcie roga
 ---
 
 ### Zadanie 8. 
-Korzystając z funkcji line() podzielić okno na siatkę (plansza do gry w Go o rozmiarze 9 x 9 linii).
+Plansza do Go - korzystając z funkcji line() podzielić okno na siatkę (plansza do gry w Go o rozmiarze 9 x 9 linii).
 
 ---
 
@@ -89,6 +89,7 @@ Korzystając z bloku beginShape / endShape zbudować pięciokąt.
 - liczby losowe
 - instrukcja frameRate()
 - instrukcja frameCount
+- eksport aplikacji
 
 
 ---
@@ -119,7 +120,7 @@ Korzystając z operacji modulo wprowadź do programu z poprzedniego zadania (Prz
 ---
 
 ### Zadanie 14.
-Błądzenie chaotyczne - korzystając z funkcji random(), sin() i cos() utwórz program obrazujacy zagadnienie błądzenia chaotycznego - program startuje z niewielką elipsą w środku okna. W każdym kroku program losuje kąt o jaki ma się obrócić kierunek ruchu i przemieszca elipsę o zadany krok. Uwaga - w tym ćwiczeniu warto wyłączyć opcję odmalowywania tła w funkcji draw(). 
+Błądzenie chaotyczne - korzystając z funkcji random(), sin() i cos() utwórz program obrazujacy zagadnienie błądzenia chaotycznego - program startuje z niewielką elipsą w środku okna. W każdym kroku program losuje kąt o jaki ma się obrócić kierunek ruchu i przemieszca elipsę o ustalony krok. Uwaga - w tym ćwiczeniu warto wyłączyć opcję odmalowywania tła w funkcji draw(). 
 
 ---
 
@@ -161,9 +162,43 @@ Wróć do zadania "Symulacja wahadła" i uprość program korzystając z wektor�
 - zmienne systemowe: keyPressed, keyCode, key, mousePressed
 - instrukcja setup()
 - instrukcja loop()/noLoop()
+
 ---
 
 ### Zadanie 21.
+
+Napisz program, w którym na środku ekranu będzie widoczna elipsa. Jej kolor powinien zmieniać się w zależności od warunku, czy naciśnięty został klawisz myszy. 
+
+Wariant 1 - elipsa jest początkowo biała:
+- jeżeli naciśnięto dowolny przycisk myszy - jej wypełnienie zmienia kolor na czarny,
+- jeżeli zwolniono dowolny przycisk myszy - jej wypełnienie wraca do koloru białego.
+
+Wariant 2 - elipsa jest początkowo biała:
+- jeżeli naciśnięto dowolny przycisk myszy - jej wypełnienie zmienia kolor na czarny i pozostaje czarne nawet po zwolnieniu przycisku myszy,
+- ponowne naciśnięcie dowolnego przycisku myszy powoduje zmianę kloru wypełnienia na biały.
+
+### Zadanie 22.
+
+Utworzyć program, w którym okno zostanie podzielone na 9 równych kwadratów (siatka 3 x 3). Kwadraty będą zmieniać śwoje kolory w zależności od tego, czy w ich obszarze znajduje się kursor myszy, czy też nie. 
+
+---
+
+Zadanie 23.
+
+Utwórz program imitujący tarczę zegara z dwiema wskazówkami. Niech prędkości kątowe wskazówek będą sterowane klawiszami klawiatury:
+- q - zwiększanie prędkości kątowej dużej wskazówki,
+- a - zmniejszanie prędkości kątowej dużej wskazówki,
+- w - zwiększanie prędkości kątowej małej wskazówki,
+- s - zmniejszanie prędkości kątowej małej wskazówki.
+
+---
+
+### Zadanie 24.
+W oparciu o zadanie "Przemieszczająca się elipsa" wprowadź w programie możliwość odbicia elipsy od krawędzi okna.
+
+---
+
+### Zadanie 25.
 W oparciu o zadanie "Przemieszczająca się elipsa" i korzystając z instrukcji warunkowych, utwórz program, w którym będziesz sterować pozycją i szybkością elipsy za pomocą klawiatury:
 - strzałka w prawo - rych w prawo
 - strzałka w lewo - ruch w lewo
@@ -172,31 +207,98 @@ W oparciu o zadanie "Przemieszczająca się elipsa" i korzystając z instrukcji 
 - klawisz 'q' - zwiększanie szybkości
 - klasisz 'w' - zmniejszanie szybkości
 
----
-
-### Zadanie 22.
-
-Korzystając z funkcji random() oraz instrukcji warunkowych utworzyć program do szacowania wartości liczby pi (całkowanie Monte Carlo).
-
-Korzystając z instrukcji warunkowych, utworzyć program sortujący 
-
-Utworzyć program losujący (typu kostka do gry)
-
-Utworzyć program do gry typu Pong
-
-Utworzyć program typu Paint
-
-Utworzyć program typu kolorowe kwadraty
-
+Dodatkowo, możesz napisać rozbudowaną wersję programu, wyświetlającą aktualny czas za pomocą poleceń second(), minute(), hour().
 
 ---
 
-### Zadanie
+### Zadanie 26.
 
+Utworzyć program losujący (typu kostka do gry). Program powinien posiadać w środku ekranu kwadrat wyświetlający w formie cyfr od 1 do 6, oraz przycisk, który po naciśnięciu klawiszem muszy wykona losowanie. 
+
+---
+
+### Zadanie 27.
+
+Korzystając z funkcji random() oraz instrukcji warunkowych utworzyć program do szacowania wartości liczby pi (za pomocą tzw. algorytmu całkowania Monte Carlo).
+
+---
+
+### Zadanie 28.
+
+Utworzyć program do gry typu Pong dla dwóch graczy. Gracze za pomocą klawiszy klawiatury (np. w, s, p, l) sterują swoimi paletkami i odbijają między sobą ruchomą piłkę. Piłka, gdy uderzy w górną lub dolną krawędź okna - ulega odbiciu, z kolei kiedy ominie paltetkę gracza i wpadnie na krawędź prawą lub lewą - zostaje przeniesiona na środek ekranu, a gracz przeciwny otrzymuje punkt. 
+
+---
+
+Zadanie 29.
+
+Utworzyć program z modelem samochodu (widok z góry), sterowanym za pomocą klawiszy klawiatury w, a, s, d z wizualizacją skrętu przednich kół. Kształt samochodu należy wykonać z prostokątów (nadwozie, koła, okna, światła). Dodatkowo klawisz q powinien zmieniać kolor kwadratów reprezentujących światła (wizualizacja włączania lub wyłączania świateł) natomiast hamowanie powinno powodować zmianę koloru tylnych lamp. Do sterowania samochodem wykorzystaj instrukcje translate() i rotate().
+
+---
+
+### Zadanie 30.
+
+Utworzyć program do rysowania. Program powinien posiadać do rysowania przynajmniej 3 narzędzia i 6 kolorów. Do zapisu utworzonego obrazu wykorzystaj funkcję save(), natomiast do czyszczenia ekranu funkcję setup(). 
 
 ---
 
 # IV. Pętle
+
+## Zagadnienia do omówienia:
+1. Co to jest pętla
+2. Rodzaje pętli (pętla draw, pętla while i pętla for)
+3. Polecenie noLoop()
+4. Wykorzystanie iteratora w charakterze zmiennej
+5. Zastosowanie instrukcji warunkowych w obrębie pętli
+
+---
+
+### Zadanie 31.
+Korzystając z pętli for utwórz łańcuch conajmniej 20 elips rozmieszczonych po przekątnej okna.
+
+---
+
+### Zadanie 32.
+Wróć do zadania "Plansza do Go". Wykonaj planszę do gry w Go, ale tym razem o wymiarze 19 x 19 linii z wykorzystaniem pętli for.
+
+---
+
+### Zadanie 33.
+Korzystając z pętli for utwórz klasyczną szachownicę (8 x 8 pól) wraz z opisem literowym i cyfrowym pozycji pól.
+
+---
+
+### Zadanie 34
+
+Utwórz program do generowania kolorowych tekstór złożonych z kwadratów o losowym kolorze z pewnego zakresu barw. Generowane obrazy powinny imitować tekstury bloków znane m. in. z gier otwartego świata typu Minecraft. Program można rozbudować o możliwość zapisu tworzonych tekstur za pomocą polecenia save(). 
+
+---
+
+### Zadanie 35.
+Korzystając z instrukcji warunkowych oraz pętli for, utworzyć program sortujący losowo wybrany zestaw prostokątów o równych podstawach i różnych wysokościach (można zastosować dowolny algorytmnia).
+
+---
+
+### Zadanie 36.
+
+Rozbuduj program "Przemieszczająca się elipsa" - dodaj do niej kolejne elipsy tak, żeby na ekranie poruszało się ich minimum 10. W zadaniu należy skorzystać z pętli i z list (Array).
+
+---
+
+### Zadanie 37.
+Rozbuduj program "Symulacja wahadła", dodaj do niego kolejne wahadła tak, aby na ekranie symulowana była dynamika zestawu wahadeł (minimum 10). W zadaniu należy skorzystać z pętli i z list (Array).
+
+---
+
+### Zadanie 38.
+
+---
+
+### Zadanie 39.
+
+---
+
+### Zadanie 40.
+Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją długość po kolizji z celem, równocześnie zdobywając punkty. Gracz przegrywa, jeżeli doprowadzi do kolicji głowy węża z jego ciałem.  
 
 ---
 
