@@ -306,8 +306,61 @@ Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją d�
 
 # V. Funkcje własne
 
+## Zagadnienia do omówienia:
+1. Co to jest funkcja?
+2. Co to są argumenty?
+3. Co może zwracać funkcja?
+4. Co oznacza słowo void?
+
 ---
 
-# VI. Podstawy programowania obiektowego
+### Zadania
+
+Funkcja sprawdzająca czy liczba jest pierwsza
+
+Obliczanie pola i obwodu figur płaskich
+
+Funkcje wywołujące przemieszczanie figury po określonej trajektorii
+
+Rysowwanie celu - argumentem ilość pierścieni
+
+Rysowanie wielokąta - argumentem ilość ścian
+
+Rysowanie gwiazdy - argumentem liczba ramion
+
+Rysowanie spirali
+
+Rysowanie szachownicy
+
+Rysowanie przycisków
+
+Rysowanie samochodu
+
+---
+
+# VI. Podstawy programowania obiektowego i zagadnienia dodatkowe 
+
+## Zagadnienia do omówienia:
+1. Co to jest klasa i obiekt
+2. Co to są pola i metody
+3. Co to jest konstruktor
+4. Jak wczytywać dane
+5. Co to jest port szeregowy i jak pobierać dane wysyłane z Arduino?
+
+---
+
+### Zadanie
+Przerobić program "Przesuwająca się elipsa"
+Przerobić program "Błądzenie chaotyczne"
+Przerobić program "Oscylator"
+Układ cząsteczkowy
+Arkanoid
+Processing Hero
+
+Wczytywanie danych
+Robienie wykresów
+Łączenie Processingu z Arduino
+Podłączanie kamery
+
 
 ---
