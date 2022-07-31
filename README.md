@@ -17,7 +17,7 @@ Literatura i inspiracje książkowe:
 - https://natureofcode.com
 - https://www.w3schools.com
 
-# Basics of Python programming
+# Processing in tasks
 
 Teaching materials for learning the basics of programming in the Processing environment. The materials were prepared in Polish.
 
