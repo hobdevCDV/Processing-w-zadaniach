@@ -135,7 +135,7 @@ Symulacja wahadła - wykonaj symulację wahadła na sprężystej gumce. Punkt za
 ---
 
 ### Zadanie 2.7
-Korzystając z równań Lorenza spróbuj wykonać symulację atraktora Lorenza dla dwóch elips o nieznacznie różniących się pozycjach początkowych. Zachowaj ich trajektorie w liście (Array) i wyswietlaj na ekranie.
+Korzystając z listy (Array) i wektorów wykonaj przemieszczający się na ekranie łańcuch elips.
 
 ---
 
