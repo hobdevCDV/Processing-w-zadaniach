@@ -31,7 +31,7 @@ Zadanie wykonaj zarówno wyszukując kolor z wykorzystaniem kodu RGB oraz za pom
 ---
 
 ### Zadanie 1.2
-Korzystając z funkcji ellipse() wykonać obraz przypominający kolorowy kwiat (okrąg w centrum ekranu oraz cztery elipsy po stronach: prawo, lewo, góra, dół)..
+Korzystając z funkcji ellipse() wykonać obraz przypominający kolorowy kwiat (okrąg w centrum ekranu oraz cztery elipsy po stronach: prawo, lewo, góra, dół).
 
 ---
 
