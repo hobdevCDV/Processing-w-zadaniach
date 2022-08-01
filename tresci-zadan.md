@@ -125,7 +125,7 @@ Błądzenie chaotyczne - korzystając z funkcji random(), sin() i cos() utwórz 
 ---
 
 ### Zadanie 2.5
-Wykonaj animację ruchu planet wokół Słońca wraz z kilkoma księżycami. Skorzystaj z funkcji translate() i rotate().  
+Wykonaj animację ruchu czterech pierwszych planet wokół Słońca wraz z ich księżycami. Skorzystaj z funkcji translate() i rotate(). Lokalne korzystanie z ustawień translacji i rotacji w obrębie funkcji draw() umożliwia konstrukcja push()/pop().  
 
 ---
 
