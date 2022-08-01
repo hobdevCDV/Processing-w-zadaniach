@@ -388,6 +388,7 @@ Rysowanie samochodu
 3. Co to jest konstruktor
 4. Jak wczytywać dane
 5. Co to jest port szeregowy i jak pobierać dane wysyłane z Arduino?
+6. Jak tworzyć wykresy?
 
 ---
 
