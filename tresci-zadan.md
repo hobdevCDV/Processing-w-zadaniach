@@ -314,25 +314,67 @@ Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją d�
 
 ---
 
-### Zadania
+### Zadanie 5.1
 
 Funkcja sprawdzająca czy liczba jest pierwsza
 
+---
+
+### Zadanie 5.2
+
 Obliczanie pola i obwodu figur płaskich
+
+---
+
+### Zadanie 5.3
 
 Funkcje wywołujące przemieszczanie figury po określonej trajektorii
 
+---
+
+### Zadanie 5.4
+
 Rysowwanie celu - argumentem ilość pierścieni
+
+---
+
+### Zadanie 5.5
 
 Rysowanie wielokąta - argumentem ilość ścian
 
+---
+
+### Zadanie 5.6
+
 Rysowanie gwiazdy - argumentem liczba ramion
+
+---
+
+### Zadanie 5.6
 
 Rysowanie spirali
 
+---
+
+### Zadanie 5.7 
+
+Rysowanie spirali liczb pierwszych (Ulama)
+
+---
+
+### Zadanie 5.8
+
 Rysowanie szachownicy
 
+---
+
+### Zadanie 5.9
+
 Rysowanie przycisków
+
+---
+
+### Zadanie 5.10
 
 Rysowanie samochodu
 
@@ -349,18 +391,62 @@ Rysowanie samochodu
 
 ---
 
-### Zadanie
+### Zadanie 6.1
+
 Przerobić program "Przesuwająca się elipsa"
+
+---
+
+### Zadanie 6.2
+
 Przerobić program "Błądzenie chaotyczne"
+
+---
+
+### Zadanie 6.3
+
 Przerobić program "Oscylator"
+
+---
+
+### Zadanie 6.4
+
 Układ cząsteczkowy
+
+---
+
+### Zadanie 6.5
+
 Arkanoid
+
+---
+
+### Zadanie 6.6
+
 Processing Hero
 
-Wczytywanie danych
-Robienie wykresów
-Łączenie Processingu z Arduino
-Podłączanie kamery
+---
 
+### Zadanie 6.7
+
+Wczytywanie danych
+
+---
+
+### Zadanie 6.8
+
+Robienie wykresów
+
+---
+
+Zadanie 6.9
+
+Łączenie Processingu z Arduino
+
+---
+
+### Zadanie 6.10
+
+Podłączanie kamery
 
 ---
