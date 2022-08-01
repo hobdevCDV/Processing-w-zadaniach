@@ -21,7 +21,7 @@
 
 ---
 
-### Zadanie 1. 
+### Zadanie 1.1
 Korzystając ze środowiska Processing utwórz program, w którym wywołasz okno o rozmiarze 600 x 400 px, a następnie ustawisz kolor tła na: 
 - turkusowy, 
 - łososiowy. 
@@ -30,47 +30,47 @@ Zadanie wykonaj zarówno wyszukując kolor z wykorzystaniem kodu RGB oraz za pom
 
 ---
 
-### Zadanie 2. 
+### Zadanie 1.2
 Korzystając z funkcji ellipse() wykonać obraz przypominający kolorowy kwiat (okrąg w centrum ekranu oraz cztery elipsy po stronach: prawo, lewo, góra, dół)..
 
 ---
 
-### Zadanie 3. 
+### Zadanie 1.3
 Korzystając z funkcji ellipse() wykonać obraz pięciu kół przypominających kółka olimpijskie (nie muszą się przecinać).
 
 ---
 
-### Zadane 4. 
+### Zadane 1.4
 Korzystając z funkcji rect() wykonać obraz przypominający symbol polskiej szachownicy lotniczej.
 
 ---
 
-### Zadanie 5. 
+### Zadanie 1.5
 Korzystając z funkcji rect(), ellipse() oraz triangle() wykonać grafiki przycisków play/stop/pause. 
 
 ---
 
-### Zadanie 6. 
+### Zadanie 1.6
 Korzystając z funkcji ellipse() i triangle() wykonać ilustrację porcji lodów w waflowym rożku.
 
 ---
 
-### Zadanie 7. 
+### Zadanie 1.7
 Korzystając z funkcji ellipse wykonać ilustrację księżyca w kształcie rogalika.
 
 ---
 
-### Zadanie 8. 
+### Zadanie 1.8 
 Plansza do Go - korzystając z funkcji line() podzielić okno na siatkę (plansza do gry w Go o rozmiarze 9 x 9 linii).
 
 ---
 
-### Zadanie 9
+### Zadanie 1.9
 Korzystając z poznanych narzędzi utwórz obraz zawierający obszar reprezentujący trawę (zielony prostokąt), niebo (niebieski prostokąt) i chmurkę (zestaw trzech elips).
 
 ---
 
-### Zadanie 10. 
+### Zadanie 1.10
 Korzystając z bloku beginShape / endShape zbudować pięciokąt. 
 
 ---
@@ -94,12 +94,12 @@ Korzystając z bloku beginShape / endShape zbudować pięciokąt.
 
 ---
 
-### Zadanie 11.
+### Zadanie 2.1
 Korzystając z wbudowanych zmiennych mouseX, mouseY utworzyć elipsę, której pozycję i kolor będzie zależeć od położenia kursora myszy.
 
 ---
 
-### Zadanie 12. 
+### Zadanie 2.2
 Przemieszczająca się elipsa - utwórz program z dwiema zmiennymi, których wartość będzie kontrolować położenie elipsy na ekranie. Niech wraz z działaniem programu ich wartość się zwiększa i przemieszcza elipsę:
 - od prawej do lewej,
 - od lewej do prawej,
@@ -110,7 +110,7 @@ Wypróbuj różne prędkości ich przemieszczania.
 
 ---
 
-### Zadanie 13. 
+### Zadanie 2.3
 Korzystając z operacji modulo wprowadź do programu z poprzedniego zadania (Przemieszczająca się elipsa) tzw. periodyczne warunki brzegowe:
 - jeżeli elipsa dotrze do prawej krawędzi okna, zostanie przeniesiona na krawędź lewą,
 - jeżeli elipsa dotrze do lewej krawędzi okna, zostanie przeniesiona na krawędź prawą,
@@ -119,37 +119,37 @@ Korzystając z operacji modulo wprowadź do programu z poprzedniego zadania (Prz
 
 ---
 
-### Zadanie 14.
+### Zadanie 2.4
 Błądzenie chaotyczne - korzystając z funkcji random(), sin() i cos() utwórz program obrazujacy zagadnienie błądzenia chaotycznego - program startuje z niewielką elipsą w środku okna. W każdym kroku program losuje kąt o jaki ma się obrócić kierunek ruchu i przemieszca elipsę o ustalony krok. Uwaga - w tym ćwiczeniu warto wyłączyć opcję odmalowywania tła w funkcji draw(). 
 
 ---
 
-### Zadanie 15. 
+### Zadanie 2.5
 Wykonaj animację ruchu planet wokół Słońca wraz z kilkoma księżycami. Skorzystaj z funkcji translate() i rotate().  
 
 ---
 
-### Zadanie 16.
+### Zadanie 2.6
 Symulacja wahadła - wykonaj symulację wahadła na sprężystej gumce. Punkt zaczepienia wahadła powinien być wskazywany przez współrzędne kursora myszy. 
 
 ---
 
-### Zadanie 17. 
+### Zadanie 2.7
 Korzystając z równań Lorenza spróbuj wykonać symulację atraktora Lorenza dla dwóch elips o nieznacznie różniących się pozycjach początkowych. Zachowaj ich trajektorie w liście (Array) i wyswietlaj na ekranie.
 
 ---
 
-### Zadanie 18. 
+### Zadanie 2.8
 Wróć co zadania "Przemieszczająca się elipsa" i uprość program korzystając z wektorów.
 
 ---
 
-### Zadanie 19.
+### Zadanie 2.9
 Wróć do zadania "Błądzenie chaotyczne" i uprość program korzystając z wektorów.
 
 ---
 
-### Zadanie 20.
+### Zadanie 2.10
 Wróć do zadania "Symulacja wahadła" i uprość program korzystając z wektorów.
 
 ---
@@ -165,7 +165,7 @@ Wróć do zadania "Symulacja wahadła" i uprość program korzystając z wektor�
 
 ---
 
-### Zadanie 21.
+### Zadanie 3.1
 
 Napisz program, w którym na środku ekranu będzie widoczna elipsa. Jej kolor powinien zmieniać się w zależności od warunku, czy naciśnięty został klawisz myszy. 
 
@@ -177,13 +177,13 @@ Wariant 2 - elipsa jest początkowo biała:
 - jeżeli naciśnięto dowolny przycisk myszy - jej wypełnienie zmienia kolor na czarny i pozostaje czarne nawet po zwolnieniu przycisku myszy,
 - ponowne naciśnięcie dowolnego przycisku myszy powoduje zmianę kloru wypełnienia na biały.
 
-### Zadanie 22.
+### Zadanie 3.2
 
 Utworzyć program, w którym okno zostanie podzielone na 9 równych kwadratów (siatka 3 x 3). Kwadraty będą zmieniać śwoje kolory w zależności od tego, czy w ich obszarze znajduje się kursor myszy, czy też nie. 
 
 ---
 
-Zadanie 23.
+Zadanie 3.3
 
 Utwórz program imitujący tarczę zegara z dwiema wskazówkami. Niech prędkości kątowe wskazówek będą sterowane klawiszami klawiatury:
 - q - zwiększanie prędkości kątowej dużej wskazówki,
@@ -193,12 +193,12 @@ Utwórz program imitujący tarczę zegara z dwiema wskazówkami. Niech prędkoś
 
 ---
 
-### Zadanie 24.
+### Zadanie 3.4
 W oparciu o zadanie "Przemieszczająca się elipsa" wprowadź w programie możliwość odbicia elipsy od krawędzi okna.
 
 ---
 
-### Zadanie 25.
+### Zadanie 3.5
 W oparciu o zadanie "Przemieszczająca się elipsa" i korzystając z instrukcji warunkowych, utwórz program, w którym będziesz sterować pozycją i szybkością elipsy za pomocą klawiatury:
 - strzałka w prawo - rych w prawo
 - strzałka w lewo - ruch w lewo
@@ -211,31 +211,31 @@ Dodatkowo, możesz napisać rozbudowaną wersję programu, wyświetlającą aktu
 
 ---
 
-### Zadanie 26.
+### Zadanie 3.6
 
 Utworzyć program losujący (typu kostka do gry). Program powinien posiadać w środku ekranu kwadrat wyświetlający w formie cyfr od 1 do 6, oraz przycisk, który po naciśnięciu klawiszem muszy wykona losowanie. 
 
 ---
 
-### Zadanie 27.
+### Zadanie 3.7
 
 Korzystając z funkcji random() oraz instrukcji warunkowych utworzyć program do szacowania wartości liczby pi (za pomocą tzw. algorytmu całkowania Monte Carlo).
 
 ---
 
-### Zadanie 28.
+### Zadanie 3.8
 
 Utworzyć program do gry typu Pong dla dwóch graczy. Gracze za pomocą klawiszy klawiatury (np. w, s, p, l) sterują swoimi paletkami i odbijają między sobą ruchomą piłkę. Piłka, gdy uderzy w górną lub dolną krawędź okna - ulega odbiciu, z kolei kiedy ominie paltetkę gracza i wpadnie na krawędź prawą lub lewą - zostaje przeniesiona na środek ekranu, a gracz przeciwny otrzymuje punkt. 
 
 ---
 
-Zadanie 29.
+Zadanie 3.9
 
 Utworzyć program z modelem samochodu (widok z góry), sterowanym za pomocą klawiszy klawiatury w, a, s, d z wizualizacją skrętu przednich kół. Kształt samochodu należy wykonać z prostokątów (nadwozie, koła, okna, światła). Dodatkowo klawisz q powinien zmieniać kolor kwadratów reprezentujących światła (wizualizacja włączania lub wyłączania świateł) natomiast hamowanie powinno powodować zmianę koloru tylnych lamp. Do sterowania samochodem wykorzystaj instrukcje translate() i rotate().
 
 ---
 
-### Zadanie 30.
+### Zadanie 3.10
 
 Utworzyć program do rysowania. Program powinien posiadać do rysowania przynajmniej 3 narzędzia i 6 kolorów. Do zapisu utworzonego obrazu wykorzystaj funkcję save(), natomiast do czyszczenia ekranu funkcję setup(). 
 
@@ -252,54 +252,54 @@ Utworzyć program do rysowania. Program powinien posiadać do rysowania przynajm
 
 ---
 
-### Zadanie 31.
+### Zadanie 4.1
 Korzystając z pętli for utwórz łańcuch conajmniej 20 elips rozmieszczonych po przekątnej okna.
 
 ---
 
-### Zadanie 32.
+### Zadanie 4.2
 Wróć do zadania "Plansza do Go". Wykonaj planszę do gry w Go, ale tym razem o wymiarze 19 x 19 linii z wykorzystaniem pętli for.
 
 ---
 
-### Zadanie 33.
+### Zadanie 4.3
 Korzystając z pętli for utwórz klasyczną szachownicę (8 x 8 pól) wraz z opisem literowym i cyfrowym pozycji pól.
 
 ---
 
-### Zadanie 34
+### Zadanie 4.4
 
 Utwórz program do generowania kolorowych tekstór złożonych z kwadratów o losowym kolorze z pewnego zakresu barw. Generowane obrazy powinny imitować tekstury bloków znane m. in. z gier otwartego świata typu Minecraft. Program można rozbudować o możliwość zapisu tworzonych tekstur za pomocą polecenia save(). 
 
 ---
 
-### Zadanie 35.
+### Zadanie 4.5
 Korzystając z instrukcji warunkowych oraz pętli for, utworzyć program sortujący losowo wybrany zestaw prostokątów o równych podstawach i różnych wysokościach (można zastosować dowolny algorytmnia).
 
 ---
 
-### Zadanie 36.
+### Zadanie 4.6
 
 Rozbuduj program "Przemieszczająca się elipsa" - dodaj do niej kolejne elipsy tak, żeby na ekranie poruszało się ich minimum 10. W zadaniu należy skorzystać z pętli i z list (Array).
 
 ---
 
-### Zadanie 37.
+### Zadanie 4.7
 Rozbuduj program "Symulacja wahadła", dodaj do niego kolejne wahadła tak, aby na ekranie symulowana była dynamika zestawu wahadeł (minimum 10). W zadaniu należy skorzystać z pętli i z list (Array).
 
 ---
 
-### Zadanie 38.
+### Zadanie 4.8
 Spirala - korzystając z pętli utwórz program generujący (za pomocą małych kwadratów) kwadratową spiralę.
 
 ---
 
-### Zadanie 39.
+### Zadanie 4.9
 Rozbuduj program "Spirala" tak, aby kolor kolejnych kwadratów zależał od tego, czy numer danego kwadratu jest liczbą pierwszą (spirala Ulama).
 
 ---
 
-### Zadanie 40.
+### Zadanie 4.10
 Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją długość po kolizji z celem, równocześnie zdobywając punkty. Gracz przegrywa, jeżeli doprowadzi do kolicji głowy węża z jego ciałem.  
 
 ---
