@@ -41,7 +41,7 @@ Korzystając z funkcji ellipse() wykonać obraz pięciu kół przypominających 
 ---
 
 ### Zadane 1.4
-Korzystając z funkcji rect() wykonać obraz szachownicy o wymiarach 4x4.
+Korzystając z funkcji rect() wykonać obraz szachownicy o wymiarach 4x4 pola.
 
 ---
 
