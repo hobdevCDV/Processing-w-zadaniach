@@ -135,7 +135,7 @@ Symulacja wahadła - wykonaj symulację wahadła na sprężystej gumce. Punkt za
 ---
 
 ### Zadanie 2.7
-Korzystając z listy (Array) i wektorów wykonaj przemieszczający się na ekranie łańcuch elips.
+Korzystając z listy (Array) i wektorów wykonaj przemieszczający się na ekranie łańcuch pięciu elips.
 
 ---
 
