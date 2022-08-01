@@ -95,7 +95,7 @@ Korzystając z bloku beginShape / endShape zbudować pięciokąt.
 ---
 
 ### Zadanie 2.1
-Korzystając z wbudowanych zmiennych mouseX, mouseY utworzyć elipsę, której pozycję i kolor będzie zależeć od położenia kursora myszy.
+Korzystając z wbudowanych zmiennych mouseX, mouseY utworzyć elipsę, której pozycję i kolor będzie zależeć od położenia kursora myszy. Możesz sprawdzić wartości przechowywane przez zmienne systemowe mouseX i mouseY korzystając z polecenia println(), które wyświetli je w konsoli środowiska.
 
 ---
 
