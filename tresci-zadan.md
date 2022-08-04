@@ -237,7 +237,7 @@ Utworzyć program z modelem samochodu (widok z góry), sterowanym za pomocą kla
 
 ### Zadanie 3.10
 
-Utworzyć program do rysowania. Program powinien posiadać do rysowania przynajmniej 3 narzędzia i 6 kolorów. Do zapisu utworzonego obrazu wykorzystaj funkcję save(), natomiast do czyszczenia ekranu funkcję setup(). 
+Utworzyć program do rysowania. Program powinien posiadać do rysowania przynajmniej 2 narzędzia i 5 kolorów. Do zapisu utworzonego obrazu wykorzystaj funkcję save(), natomiast do czyszczenia ekranu funkcję setup(). 
 
 ---
 
