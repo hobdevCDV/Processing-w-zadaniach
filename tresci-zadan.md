@@ -300,7 +300,7 @@ Rozbuduj program "Spirala" tak, aby kolor kolejnych kwadratów zależał od tego
 ---
 
 ### Zadanie 4.10
-Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją długość po kolizji z celem, równocześnie zdobywając punkty. Gracz przegrywa, jeżeli doprowadzi do kolicji głowy węża z jego ciałem.  
+Utwórz grę typu snake - sterujemy imitacją węża, który zwiększa swoją długość i szybkość po kolizji z celem, równocześnie zdobywając punkty. Gracz przegrywa, jeżeli doprowadzi do kolicji głowy węża z jego ciałem.  
 
 ---
 
