@@ -322,7 +322,7 @@ Funkcja sprawdzająca czy liczba jest pierwsza
 
 ### Zadanie 5.2
 
-Obliczanie pola i obwodu figur płaskich
+Utwórz funkcję do obliczania pola i obwodu prostokąta, a następnie wykorzystaj ją w programie rysującym prostokąt o wymiarach zależnych od pozycji myszy do wyświetlania pola powierzchni na ekranie.
 
 ---
 
