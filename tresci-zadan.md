@@ -334,7 +334,7 @@ Funkcje wywołujące przemieszczanie figury po określonej trajektorii
 
 ### Zadanie 5.4
 
-Rysowwanie celu - argumentem ilość pierścieni
+Utwórz funkcję rysującą tarczę celu. Argumentem ma być pozycja, średnica oraz ilość pierścieni. Utwórz kolejne warianty tej funkcji generujące tarcze w różnych kolorach.
 
 ---
 
