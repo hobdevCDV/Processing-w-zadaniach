@@ -436,7 +436,7 @@ Wczytywanie danych
 
 ### Zadanie 6.8
 
-Robienie wykresów
+Korzystając z biblioteki grafica utworzyć wykres wybranej funkcji trygonomentrycznej (np. sinus lub cosinus). 
 
 ---
 
