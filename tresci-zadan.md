@@ -412,7 +412,7 @@ Przerobić program "Oscylator"
 
 ### Zadanie 6.4
 
-Układ cząsteczkowy
+Utworzyć klasę Disc reprezentującą cząsteczkę, a następnie korzystając z listy takich obiektów utworzyć symulację fajerwerków / zimnych ogni (układ cząsteczkowy).
 
 ---
 
